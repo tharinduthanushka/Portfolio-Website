@@ -273,6 +273,7 @@ export default function Portfolio() {
                   </div>
                   <div className="project-links">
                     <a href={project.github} className="project-link" target='_blank'>GitHub</a>
+                    <a href={project.demo} className="project-link" target='_blank'>demo</a>
                   </div>
                 </motion.div>
               ))}
@@ -445,8 +446,9 @@ const projects = [
     image: '/images/password generator.png',
     title: "Password Generator",
     description: "A password generator application that displays a suitable password and lets you copy it",
-    technologies: ["JavaScript", "OpenWeather API", "HTML", "CSS"],
-    github: "https://github.com/johndoe/weather-app"
+    technologies: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/tharinduthanushka/Password-Generator.git",
+    demo: "https://lolpasswordgenerator.netlify.app/",
   }
 ];
 
